@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTRIBUTING - AP Chemistry Breakdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .nav-bar {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            margin: -40px -40px 30px -40px;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+        .nav-bar a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+        }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; border-bottom: 2px solid #ecf0f1; padding-bottom: 8px; }
+        h3 { color: #5a6c7d; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background: #3498db; color: white; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        blockquote { border-left: 4px solid #3498db; padding-left: 20px; margin-left: 0; color: #555; }
+        .practice-section { background: #e8f4f8; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #3498db; }
+        .feedback-section { background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #f39c12; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div>
+                <a href="index.html">🏠 Home</a>
+                <a href="INDEX.html">📋 All Questions</a>
+                <a href="QUICK_START.html">📚 Quick Start</a>
+            </div>
+            <a href="https://github.com/alixandria-ali/Chemistry-Practice-AP-test-Breakdown">GitHub</a>
+        </div>
+        <div class="markdown-body" id="content"></div>
+    </div>
+    <script>
+        const markdown = `# Contributing to This Project
+
+Thank you for your interest in improving the AP Chemistry Practice Test Breakdown!
+
+## How to Contribute
+
+### 1. Report Errors
+If you find any mistakes in:
+- Chemical equations
+- Calculations
+- Explanations
+- Formatting
+
+Please create an issue with:
+- Question number
+- Description of the error
+- Suggested correction
+
+### 2. Add Missing Questions
+We currently have 7 complete question breakdowns. To add more:
+
+**Required Format for Each Question:**
+
+```markdown
+# Question X: [Title]
+
+## Unit: [Unit Number and Name]
+**Topic**: [Specific Topic with AP Code]
+
+---
+
+## Original Question
+[Full question text with all options]
+
+---
+
+## How to Approach This Question
+
+### Step 1: [First Step Title]
+[Explanation]
+
+### Step 2: [Second Step Title]
+[Explanation]
+
+[Continue with all steps...]
+
+**Answer: [Letter and full answer]**
+
+---
+
+## Key Concepts to Remember
+
+[Bullet points or table of key concepts]
+
+---
+
+## Try It Now!
+
+**Practice Question:**
+
+[Similar question for practice]
+
+---
+
+## Check Yourself
+
+### Your Answer: ____
+
+### Feedback
+
+**Approach:**
+[How to solve]
+
+**Step-by-Step Solution:**
+[Complete solution]
+
+**Correct Answer: [Answer]**
+
+[Explanation and insights]
+
+---
+
+## Additional Practice Resources
+
+[Suggestions for further practice]
+```
+
+### 3. Improve Existing Questions
+Enhancements welcome:
+- Clearer explanations
+- Better diagrams (if you can add images)
+- Additional practice problems
+- More detailed "Key Concepts" sections
+
+### 4. Add Study Resources
+- Formula sheets
+- Quick reference guides
+- Memory aids and mnemonics
+- Links to helpful videos or resources
+
+## Style Guidelines
+
+### Writing Style:
+- Clear and concise
+- Student-friendly language
+- Step-by-step approach
+- Include "why" not just "how"
+
+### Formatting:
+- Use markdown headers (#, ##, ###)
+- Bold important terms with **asterisks**
+- Use tables for comparing concepts
+- Use code blocks for equations when helpful
+- Break long sections into digestible chunks
+
+### Calculations:
+- Show all steps
+- Include units
+- Round appropriately
+- Explain what each variable represents
+
+## Questions Still Needed
+
+### High Priority:
+- Q5 - VSEPR Multiple Molecules
+- Q6 - Solution Preparation
+- Q8 - Dilution Problems
+- Q9 - Surface Tension
+- Q10 - Dissolution Rate
+
+### Medium Priority:
+- Q12 - Acid-Base Reaction Products
+- Q13 - Strong vs Weak Bases
+- Q15 - Acid Nomenclature
+- Q17 - Stoichiometry (LiOH + HBr)
+- Q18 - Percent Yield
+- Q20 - Solution Stoichiometry
+
+## Review Process
+
+1. **Accuracy**: All chemistry must be correct
+2. **Clarity**: Explanations must be understandable
+3. **Completeness**: All sections must be filled
+4. **Consistency**: Follow existing format
+5. **Educational Value**: Should help students learn
+
+## Contact
+
+For major contributions or questions, please open an issue first to discuss.
+
+---
+
+*Thank you for helping students succeed in AP Chemistry!*`;
+        document.getElementById('content').innerHTML = marked.parse(markdown);
+    </script>
+</body>
+</html>

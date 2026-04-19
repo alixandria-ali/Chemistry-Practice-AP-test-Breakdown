@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q19 - AP Chemistry Breakdown</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .nav-bar {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            margin: -40px -40px 30px -40px;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav-bar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border-radius: 3px;
+            transition: background 0.3s;
+        }
+        .nav-bar a:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+        }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; border-bottom: 2px solid #ecf0f1; padding-bottom: 8px; }
+        h3 { color: #5a6c7d; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+        pre { background: #f4f4f4; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background: #3498db; color: white; }
+        tr:nth-child(even) { background: #f9f9f9; }
+        a { color: #3498db; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        blockquote { border-left: 4px solid #3498db; padding-left: 20px; margin-left: 0; color: #555; }
+        .practice-section { background: #e8f4f8; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #3498db; }
+        .feedback-section { background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #f39c12; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div>
+                <a href="index.html">🏠 Home</a>
+                <a href="INDEX.html">📋 All Questions</a>
+                <a href="QUICK_START.html">📚 Quick Start</a>
+            </div>
+            <a href="https://github.com/alixandria-ali/Chemistry-Practice-AP-test-Breakdown">GitHub</a>
+        </div>
+        <div class="markdown-body" id="content"></div>
+    </div>
+    <script>
+        const markdown = `# Question 19: Gas Stoichiometry with Ideal Gas Law
+
+## Unit: Unit 4 - Chemical Reactions / Unit 5 - Kinetics and Thermodynamics
+**Topic**: Stoichiometry Combined with Gas Laws (SPQ-4.B, SAP-7.A)
+
+---
+
+## Original Question
+When magnesium reacts with hydrochloric acid, hydrogen gas is formed:
+2HCl + Mg → H₂ + MgCl₂
+
+What is the volume of hydrogen produced at 25°C and 101.3 kilopascals when 49.0 grams of HCl reacts with excess magnesium? Use the periodic table and ideal gas resource.
+
+A. 1.38 L
+B. 2.76 L
+C. 16.4 L
+D. 32.9 L
+E. 33.1 L
+
+---
+
+## How to Approach This Question
+
+This problem combines **stoichiometry** with the **ideal gas law**. We need to:
+1. Convert mass of reactant to moles
+2. Use stoichiometry to find moles of gas product
+3. Use ideal gas law to find volume
+
+---
+
+### Step 1: Convert Mass of HCl to Moles
+
+**Molar mass of HCl:**
+- H: 1.008 g/mol
+- Cl: 35.45 g/mol
+- **Total: 36.46 g/mol**
+
+**Convert to moles:**
+moles HCl = 49.0 g / 36.46 g/mol = **1.344 mol**
+
+---
+
+### Step 2: Use Stoichiometry to Find Moles of H₂
+
+From balanced equation: **2HCl + Mg → H₂ + MgCl₂**
+
+**Mole ratio**: 2 mol HCl : 1 mol H₂
+
+moles H₂ = 1.344 mol HCl × (1 mol H₂ / 2 mol HCl)
+moles H₂ = **0.672 mol**
+
+---
+
+### Step 3: Use Ideal Gas Law to Find Volume
+
+**Ideal Gas Law: PV = nRT**
+
+Where:
+- P = pressure (in kPa)
+- V = volume (in L) ← what we're solving for
+- n = moles
+- R = gas constant = **8.314 L·kPa/(mol·K)**
+- T = temperature (in Kelvin)
+
+**Convert temperature to Kelvin:**
+T = 25°C + 273.15 = **298.15 K** (or just use 298 K)
+
+**Solve for V:**
+V = nRT / P
+
+V = (0.672 mol)(8.314 L·kPa/(mol·K))(298 K) / (101.3 kPa)
+
+V = 1663.7 / 101.3
+
+V = **16.42 L** ≈ **16.4 L**
+
+**Answer: C (16.4 L)**
+
+---
+
+## Key Concepts to Remember
+
+### Gas Stoichiometry Process:
+```
+Mass reactant → Moles reactant → Moles gas → Volume gas
+   (÷ MM)       (× mole ratio)      (PV=nRT)
+```
+
+### Ideal Gas Law: PV = nRT
+
+**Choose the correct R value** based on units:
+- R = 0.0821 L·atm/(mol·K) when P is in atm
+- R = 8.314 L·kPa/(mol·K) when P is in kPa
+- R = 62.4 L·mmHg/(mol·K) when P is in mmHg
+
+### Temperature Conversion:
+**Always convert to Kelvin!**
+- K = °C + 273.15
+- Never use Celsius in gas law calculations
+
+### Common Mistakes:
+- Forgetting to convert °C to K
+- Using wrong R value for pressure units
+- Forgetting to use stoichiometry ratio
+- Using mass instead of moles
+
+---
+
+## Try It Now!
+
+**Practice Question:**
+
+Zinc reacts with sulfuric acid to produce hydrogen gas:
+Zn + H₂SO₄ → H₂ + ZnSO₄
+
+If 32.7 g of zinc reacts with excess sulfuric acid, what volume of hydrogen gas is produced at 20°C and 1.00 atm?
+
+(Molar mass of Zn = 65.38 g/mol; R = 0.0821 L·atm/(mol·K))
+
+A. 6.00 L
+B. 12.0 L
+C. 24.0 L
+D. 48.0 L
+E. 96.0 L
+
+---
+
+## Check Yourself
+
+### Your Answer: ____
+
+### Feedback
+
+**Approach:**
+1. Convert mass of Zn to moles
+2. Use 1:1 mole ratio to find moles of H₂
+3. Use PV = nRT to find volume
+
+**Step-by-Step Solution:**
+
+**Step 1: Convert grams of Zn to moles**
+moles Zn = 32.7 g / 65.38 g/mol = 0.500 mol
+
+**Step 2: Use stoichiometry**
+From equation: 1 mol Zn : 1 mol H₂
+moles H₂ = 0.500 mol × (1 mol H₂ / 1 mol Zn) = 0.500 mol
+
+**Step 3: Convert temperature**
+T = 20°C + 273 = 293 K
+
+**Step 4: Use ideal gas law**
+PV = nRT
+V = nRT / P
+V = (0.500 mol)(0.0821 L·atm/(mol·K))(293 K) / (1.00 atm)
+V = 12.03 / 1.00
+V = **12.0 L**
+
+**Correct Answer: B (12.0 L)**
+
+**Verification at STP:**
+At standard conditions (0°C, 1 atm), 1 mole of gas occupies 22.4 L.
+We have 0.500 mol at slightly higher temperature (20°C vs 0°C) and same pressure.
+Expected volume: 0.500 × 22.4 × (293/273) ≈ 12.0 L ✓
+
+**Key Insight:**
+The 1:1 stoichiometric ratio makes this calculation simpler - the moles of Zn equal the moles of H₂. However, always check the balanced equation as ratios vary!
+
+---
+
+## Additional Practice Resources
+
+- Practice with different gas law units (atm, kPa, mmHg)
+- Work problems at STP (0°C, 1 atm, 22.4 L/mol)
+- Combine gas laws with limiting reagent problems
+- Practice molar volume conversions`;
+        document.getElementById('content').innerHTML = marked.parse(markdown);
+    </script>
+</body>
+</html>
