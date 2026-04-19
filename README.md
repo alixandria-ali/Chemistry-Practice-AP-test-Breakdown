@@ -2,13 +2,23 @@
 
 This repository contains a comprehensive breakdown of an AP Chemistry practice test focusing on **Molecular-Level Forces and Solutions** (Units 2-3).
 
-## Structure
+## 🚀 [Quick Start Guide](QUICK_START.md) | 📋 [Full Index](INDEX.md) | 🤝 [Contributing](CONTRIBUTING.md)
+
+---
+
+## What's Inside
 
 Each question includes:
 - **Explanation**: Step-by-step approach to solve the problem
 - **Unit & Topic**: Specific AP Chemistry curriculum alignment
-- **Try It Now**: A similar practice question
-- **Check Yourself**: Feedback with approach and correct answer
+- **Try It Now**: A similar practice question for practice
+- **Check Yourself**: Detailed feedback with approach and correct answer
+
+## Current Status
+
+✅ **9 Complete Questions** | 🚧 **11 More Coming Soon**
+
+[View all completed questions](INDEX.md)
 
 ## Topics Covered
 
