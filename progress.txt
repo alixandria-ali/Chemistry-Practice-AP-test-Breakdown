@@ -1,3 +1,9 @@
 Q1: Complete ✓
 Q2: Complete ✓
-Q3-Q7: In progress...
+Q3: Complete ✓
+Q4: Complete ✓
+Q5: Complete ✓
+Q6: Complete ✓
+Q7: Complete ✓
+
+All questions completed!
